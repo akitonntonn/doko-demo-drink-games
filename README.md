@@ -7,10 +7,10 @@
 - 古今東西ゲームルーレット: https://brilliant-wisp-4ca35a.netlify.app/
 - お酒判断ゲーム: https://eclectic-centaur-efe8f8.netlify.app/
 - お酒ルーレット: https://idyllic-kleicha-262234.netlify.app/
+- チンチロ: https://lovely-bonbon-b890b5.netlify.app/
 
 ## 準備中
 
-- チンチロ
 - キングスカップ
 
 ## Netlify

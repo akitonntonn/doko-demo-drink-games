@@ -41,13 +41,15 @@ const games = [
   },
   {
     title: "チンチロ",
-    enabled: false,
-    buttonText: "Coming soon",
+    url: "https://lovely-bonbon-b890b5.netlify.app/",
+    enabled: true,
+    buttonText: "ゲームを開く",
+    external: true,
     label: "dice",
     mark: "D",
     accent: "#dd4a3a",
     accentDark: "#9f2d22",
-    status: "Coming soon",
+    status: "公開中",
     description: "サイコロの出目で盛り上がる勝負ゲーム。",
   },
   {
