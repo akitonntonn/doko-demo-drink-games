@@ -1,5 +1,19 @@
 const games = [
   {
+    title: "古今東西ゲームルーレット",
+    titleHtml: "古今東西<br />ゲームルーレット",
+    url: "https://brilliant-wisp-4ca35a.netlify.app/",
+    enabled: true,
+    buttonText: "ゲームを開く",
+    external: true,
+    label: "word",
+    mark: "W",
+    accent: "#e06f39",
+    accentDark: "#9b4824",
+    status: "公開中",
+    description: "お題を回して言葉をつなぐゲーム。",
+  },
+  {
     title: "お酒判断ゲーム",
     url: "https://eclectic-centaur-efe8f8.netlify.app/",
     enabled: true,
@@ -57,18 +71,6 @@ const games = [
     accentDark: "#285f9d",
     status: "Coming soon",
     description: "数字でテンポよく遊ぶゲーム。",
-  },
-  {
-    title: "古今東西ゲームルーレット",
-    titleHtml: "古今東西<br />ゲームルーレット",
-    enabled: false,
-    buttonText: "Coming soon",
-    label: "word",
-    mark: "W",
-    accent: "#e06f39",
-    accentDark: "#9b4824",
-    status: "Coming soon",
-    description: "お題を回して言葉をつなぐゲーム。",
   },
 ];
 
