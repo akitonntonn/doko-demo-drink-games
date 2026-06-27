@@ -10,7 +10,7 @@ const games = [
     accent: "#0f6f70",
     accentDark: "#0f5d5f",
     status: "公開中",
-    description: "気分や状況から、今飲む一杯を軽く決めてくれる診断ゲーム。",
+    description: "今の一杯をサクッと決める診断ゲーム。",
   },
   {
     title: "お酒ルーレット",
@@ -23,7 +23,7 @@ const games = [
     accent: "#f5ad37",
     accentDark: "#8a5200",
     status: "公開中",
-    description: "お題や飲む人を一発で決める、迷ったときの定番ランダムゲーム。",
+    description: "お題や飲む人を一発で決めるゲーム。",
   },
   {
     title: "チンチロ",
@@ -34,7 +34,7 @@ const games = [
     accent: "#dd4a3a",
     accentDark: "#9f2d22",
     status: "Coming soon",
-    description: "サイコロの出目で盛り上がる、短時間で回しやすい勝負ゲーム。",
+    description: "サイコロの出目で盛り上がる勝負ゲーム。",
   },
   {
     title: "キングスカップ",
@@ -45,7 +45,30 @@ const games = [
     accent: "#6d375f",
     accentDark: "#5b2c50",
     status: "Coming soon",
-    description: "カードを引いてルール発動。大人数でも流れを作りやすい王道ゲーム。",
+    description: "カードでルール発動。大人数で遊べるゲーム。",
+  },
+  {
+    title: "2~12",
+    enabled: false,
+    buttonText: "Coming soon",
+    label: "number",
+    mark: "12",
+    accent: "#3478c6",
+    accentDark: "#285f9d",
+    status: "Coming soon",
+    description: "数字でテンポよく遊ぶゲーム。",
+  },
+  {
+    title: "古今東西ゲームルーレット",
+    titleHtml: "古今東西<br />ゲームルーレット",
+    enabled: false,
+    buttonText: "Coming soon",
+    label: "word",
+    mark: "W",
+    accent: "#e06f39",
+    accentDark: "#9b4824",
+    status: "Coming soon",
+    description: "お題を回して言葉をつなぐゲーム。",
   },
 ];
 
@@ -63,7 +86,7 @@ grid.innerHTML = games
         <div class="game-card__top">
           <div>
             <p class="game-card__meta">${game.label}</p>
-            <h3>${game.title}</h3>
+            <h3>${game.titleHtml || game.title}</h3>
             <p>${game.description}</p>
           </div>
           <span class="game-card__badge" aria-hidden="true">${game.mark}</span>
