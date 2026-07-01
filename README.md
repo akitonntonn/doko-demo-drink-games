@@ -11,11 +11,8 @@
 - キングスカップ: https://clinquant-crisp-ae30f2.netlify.app/
 - 2~12: https://meek-banoffee-4ee6b4.netlify.app/
 - High&Low: https://high-low-6oc.pages.dev/
-
-## 準備中
-
-- 王様ゲーム
-- 港区女子ゲーム
+- 王様ゲーム: https://king-game-eqp.pages.dev/
+- 港区女子ゲーム: https://minatoku-girls.pages.dev/
 
 ## Netlify
 
